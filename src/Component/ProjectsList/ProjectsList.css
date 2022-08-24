@@ -1,0 +1,56 @@
+.pro-list {
+  width: 30%;
+  height: 40vh;
+  margin: 20px 8px;
+  border: 2px solid rgb(243, 242, 242);
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+.pro-browser {
+  height: 20px;
+  background-color: rgb(243, 242, 242);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  z-index: 2;
+}
+.p-circle {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 3px;
+}
+.p-img {
+  width: 100%;
+  transition: all 10s ease;
+}
+.pro-list:hover .p-img {
+  transform: translateY(-90%);
+}
+
+/* Dark mode */
+.DarkApp .pro-browser{
+  background-color: rgb(100, 100, 100);
+}
+.DarkApp .pro-list{
+  border: 2px solid rgb(100, 100, 100);
+}
+
+
+@media only screen and (max-width: 560px) {
+  .pro-list {
+    width: 100%;
+    height: 250px;
+    margin: 20px 0;
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+}
+
+@media only screen and (max-width: 380px) {
+}

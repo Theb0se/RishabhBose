@@ -1,0 +1,33 @@
+.dark-mode {
+  position: fixed;
+  z-index: 99;
+  right: 20px;
+  top: 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.dark-mode i {
+  font-size: 2rem;
+  animation-name: darkIcon;
+  animation-duration: 1s;
+  animation-delay: 1s;
+}
+
+@keyframes darkIcon {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Dark Mode */
+.DarkApp .dark-mode i {
+  color: rgba(240, 239, 239, 0.87);
+}

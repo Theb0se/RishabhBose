@@ -1,0 +1,179 @@
+.contact {
+  margin: 0 150px;
+}
+.chd {
+  display: grid;
+  place-items: center;
+  margin: 50px 0;
+}
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+.contact-left {
+  flex: 2;
+  margin-right: 10px;
+}
+.contact-right {
+  flex: 3;
+  margin-left: 10px;
+}
+
+.location a,
+.email a,
+.phone a {
+  padding: 20px;
+  display: flex;
+}
+
+.location a div,
+.email a div,
+.phone a div {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: rgba(134, 148, 211, 0.192);
+}
+.location h4,
+.email h4,
+.phone h4 {
+  display: inline-block;
+}
+.cl i {
+  color: var(--blue);
+}
+.cl span h4 {
+  color: #45505b;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.cl span p {
+  color: #728394;
+  font-weight: 500;
+}
+
+.cl a:hover div {
+  background-color: var(--blue);
+  transition: 0.3s ease-in;
+}
+.cl a:hover i {
+  color: #fff;
+  transition: 0.3s ease-in;
+}
+.contact-right .first {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.contact-right form input {
+  outline: none;
+  border: 1px solid #a7a7a798;
+  padding: 5px 10px;
+  height: 44px;
+  border-radius: 5px;
+  margin: 15px 5px;
+  background-color: transparent;
+}
+.contact-right form input:focus {
+  border: 1px solid #6d9de698;
+}
+.contact-right form .first input {
+  width: 280px;
+}
+.contact-right form .second input {
+  margin-top: 0;
+  width: 600px;
+}
+.contact-right form textarea {
+  outline: none;
+  border: 1px solid #a7a7a798;
+  padding: 5px 10px;
+  width: 600px;
+  height: 100px;
+  border-radius: 5px;
+  margin: 15px 5px;
+  resize: vertical;
+  background-color: transparent !important;
+}
+
+.contact-right form button {
+  padding: 10px 50px;
+  margin: 15px 5px;
+  background-color: var(--blue);
+  outline: none;
+  border: 1px solid transparent;
+  font-size: 1.1rem;
+  border-radius: 22px;
+}
+.contact-right form button:hover {
+  background-color: transparent;
+  border: 1px solid var(--blue);
+  transition: 0.3s ease;
+}
+.contact-submit {
+  display: grid;
+  place-items: center;
+}
+.greeting {
+  display: grid;
+  place-content: center;
+  margin-top: 20px;
+}
+.greeting p {
+  font-size: 1.2rem;
+  color: #6e6e6efb;
+}
+.greeting span {
+  font-size: 1.5rem;
+  color: var(--blue);
+  text-align: center;
+}
+
+/* Dark Mode */
+.DarkApp .contact h2,
+.DarkApp .contact h4,
+.DarkApp .contact p {
+  color: #fff;
+}
+.DarkApp .contact .contact-submit button:hover,
+.DarkApp .contact .contact-submit button:hover i {
+  color: #fff;
+  transition: 0.3s ease;
+}
+.DarkApp .contact-right form textarea,
+.DarkApp .contact-right form input,
+.DarkApp .contact-right form textarea::placeholder,
+.DarkApp .contact-right form input::placeholder {
+  border-color: #fff;
+  color: #fff;
+}
+
+@media (max-width: 650px) {
+  .contact {
+    margin: 0 10px;
+  }
+  .contact-container {
+    flex-direction: column;
+  }
+  .contact-left {
+    flex: 1;
+    margin-right: 10px;
+  }
+  .contact-right {
+    flex: 1;
+    margin-left: 10px;
+  }
+  .contact-right form .first input {
+    width: calc(43vw);
+  }
+  .contact-right form .second input,
+  .contact-right form textarea {
+    width: 90vw;
+  }
+}
