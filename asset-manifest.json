@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Rishabh_bose/static/css/main.2392ecca.css",
+    "main.js": "/Rishabh_bose/static/js/main.11b24213.js",
+    "static/media/Theb0se.jpg": "/Rishabh_bose/static/media/Theb0se.d2ba95e72c57a2a4bcd1.jpg",
+    "static/media/abc.jpg": "/Rishabh_bose/static/media/abc.569c4caa6d71679c88ef.jpg",
+    "static/media/Team.jpg": "/Rishabh_bose/static/media/Team.11d3f3ba589de4834558.jpg",
+    "static/media/chat.jpg": "/Rishabh_bose/static/media/chat.3a131753b4925974bc9f.jpg",
+    "static/media/thisWeb.png": "/Rishabh_bose/static/media/thisWeb.0ab375703576884f48ab.png",
+    "static/media/moon.png": "/Rishabh_bose/static/media/moon.4c1b90c485ddc0e32868.png",
+    "static/media/man2.jpg": "/Rishabh_bose/static/media/man2.b2ee9bc1efd059bce500.jpg",
+    "index.html": "/Rishabh_bose/index.html",
+    "main.2392ecca.css.map": "/Rishabh_bose/static/css/main.2392ecca.css.map",
+    "main.11b24213.js.map": "/Rishabh_bose/static/js/main.11b24213.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2392ecca.css",
+    "static/js/main.11b24213.js"
+  ]
+}
